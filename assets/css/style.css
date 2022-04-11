@@ -1,29 +1,31 @@
-html {
-    scroll-behavior: smooth;
-  }
+html{
+  scroll-behavior: smooth;
+}
   
 /*body*/
 
-  body {
-    padding: 0;
-    margin: 0;
-    background-color: #000;
-    color: #fff;
-  }
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
   
-  .logo {
-    width: 40px;
-  }
+.logo {
+  width: 40px;
+}
 
 /*footer*/
 
-  .footer-wrap {
-    display: flex;
-    justify-content: space-around;
-  }
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0%;
+}
+
   
-  .nav-black {
-    background-color: #000;
-    opacity: 0.9;
-    color: white;
-  }
+.nav-black {
+  background-color: #000;
+  opacity: 0.9;
+  color: white;
+}

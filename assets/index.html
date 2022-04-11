@@ -15,8 +15,8 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="logo" src="./assets/img/viajes.svg" alt=""/>
+        <a class="navbar-brand barra-nav" href="#">
+          <img class="logo" src="./img/viajes.svg" width="30" height="30" alt="logo"/>
           Viajes Chile
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
               <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Quiénes somos</a>
+              <a class="nav-link" href="#about">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#destacados">Destacados</a>
@@ -61,7 +61,7 @@
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next-icon" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -70,9 +70,9 @@
 <!--quienes somos-->
 
     <section id="about">
-      <div class="container">
+      <div class="container d-none d-sm-none d-md-none d-lg-block">
         <div class="my-3">
-          <h4 class="text-center mb-5">¿QUIÉNES SOMOS?</h4>
+          <h4 class="text-center my-5 mb-5">¿QUIÉNES SOMOS?</h4>
           <hr class="bg-info mb-4"/>
         </div>
         <div class="row">
@@ -188,29 +188,29 @@
 
 <!--boton formulario-->  
 
-          <button type="submit" class="btn btn-info text-light">Enviar</button>
+          <button type="submit" class="btn btn-info text-light my-3">Enviar</button>
         </div>
       </form>      
     </section>
 
 <!--footer-->  
 
+    <footer class="bg-info row pt-3 container-fluid mx-0">
+      <div class="col-md-6 text-center fs-2 text-align text-light">
+        <p> VIAJES CHILE</p>
+      </div>
+      <div class="col-md-6 text-center fs-2 text-align text-light">
+        <a href="https://github.com/" class="text-white"><i class="fa-brands fa-github px-1"></i></a>
+        <a href="https://linkedin.com/" class="text-white"><i class="fa-brands fa-linkedin px-1"></i></a>
+        <a href="https://twitter.com/" class="text-white"><i class="fa-brands fa-twitter px-1"></i></a>
+        <a href="https://facebook.com/" class="text-white"><i class="fa-brands fa-facebook-square px-1"></i></a>
+      </div>
+    </footer>
 
+<!--scripts--> 
 
-
-
-  </body>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
